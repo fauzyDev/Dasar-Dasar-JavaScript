@@ -2,6 +2,7 @@
 for (kondisi;;) {
     // kode
 }
+
 let nilai = 15;
 for ( let nilai = 1; nilai <= 10; nilai++) {
     console.log(nilai) // Akan berhenti di angka 10 
@@ -45,4 +46,9 @@ do {
 /*  catatan:
     Mirip dengan while, tetapi blok kode dijalankan setidaknya sekali sebelum mengevaluasi kondisi.
 */
+
+//  for...of
+for (const elemen of iterable) {
+    // kode yang akan dijalankan
+}
 
